@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu } from 'lucide-react';
 import logo from '../assets/Logo_Blog_IT_SF.png';
+import { Link } from 'react-router-dom';
 
 const backgrounds = [
   '/images/background1.jpg',
@@ -39,7 +40,7 @@ export function Header() {
       
       <div className="relative z-10 container mx-auto px-4">
         <nav className="py-6 flex justify-between items-center">
-        <img src={logo} alt="BlogIT Logo" className="h-18 mr-4" />
+          <img src={logo} alt="BlogIT Logo" className="h-18 mr-4" />
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden text-white"
@@ -50,10 +51,10 @@ export function Header() {
             isMenuOpen ? 'block' : 'hidden'
           } md:block absolute md:relative top-16 md:top-0 left-0 right-0 md:right-auto bg-black/90 md:bg-transparent p-4 md:p-0`}>
             <ul className="flex flex-col md:flex-row gap-6 text-white">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Home</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Articles</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Contact</a></li>
+              <li><Link to="/" className="hover:text-blue-400 transition-colors">Home</Link></li>
+              <li><Link to="/articles" className="hover:text-blue-400 transition-colors">Articles</Link></li>
+              <li><Link to="/about" className="hover:text-blue-400 transition-colors">About</Link></li>
+              <li><Link to="/contact" className="hover:text-blue-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
         </nav>

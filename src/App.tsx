@@ -1,9 +1,13 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { SEO } from './components/SEO';
-
-const Header = React.lazy(() => import('./components/Header').then(module => ({ default: module.Header })));
-const PostList = React.lazy(() => import('./components/PostList').then(module => ({ default: module.PostList })));
+import { Header } from './components/Header';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import BlogPost from './pages/BlogPost';
+import Articles from './pages/Articles';
 
 function App() {
   return (
@@ -24,29 +28,27 @@ function App() {
           "artificial intelligence"
         ]}
       />
-      <div className="min-h-screen bg-gray-50">
-        <Suspense fallback={<div className="h-[60vh] bg-gray-200 animate-pulse" />}>
-          <Header />
-        </Suspense>
-        <main className="container mx-auto px-4 py-12">
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Latest Articles</h2>
-            <p className="text-gray-600">Discover the latest insights in technology and development</p>
-          </div>
-          <Suspense fallback={<div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="bg-white rounded-lg shadow-lg h-96 animate-pulse" />
-            ))}
-          </div>}>
-            <PostList />
+      <Router>
+        <div className="min-h-screen bg-gray-50">
+          <Suspense fallback={<div className="h-[60vh] bg-gray-200 animate-pulse" />}>
+            <Header />
           </Suspense>
-        </main>
-        <footer className="bg-gray-800 text-white py-8">
-          <div className="container mx-auto px-4 text-center">
-            <p>&copy; 2024 BlogIT. All rights reserved.</p>
-          </div>
-        </footer>
-      </div>
+          <main className="container mx-auto px-4 py-12">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/articles" element={<Articles />} />
+              <Route path="/blog/:id" element={<BlogPost />} />
+            </Routes>
+          </main>
+          <footer className="bg-gray-800 text-white py-8">
+            <div className="container mx-auto px-4 text-center">
+              <p>&copy; 2024 BlogIT. All rights reserved.</p>
+            </div>
+          </footer>
+        </div>
+      </Router>
     </HelmetProvider>
   );
 }

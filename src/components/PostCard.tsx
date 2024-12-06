@@ -1,11 +1,11 @@
-import React from 'react';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import { LazyImage } from './LazyImage';
-import type { Post } from '../data/posts';
+import type { Post } from '../types';
+import { Link } from 'react-router-dom';
 
 interface PostCardProps extends Post {}
 
-export function PostCard({ title, excerpt, image, date, readTime }: PostCardProps) {
+export function PostCard({ title, excerpt, image, date, readTime, id }: PostCardProps) {
   return (
     <article className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
       <div className="relative h-48 overflow-hidden">
@@ -28,12 +28,12 @@ export function PostCard({ title, excerpt, image, date, readTime }: PostCardProp
         </div>
         <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
         <p className="text-gray-600 mb-4">{excerpt}</p>
-        <a
-          href="#"
+        <Link
+          to={`/blog/${id}`}
           className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
         >
           Read More <ArrowRight size={16} className="ml-1" />
-        </a>
+        </Link>
       </div>
     </article>
   );
