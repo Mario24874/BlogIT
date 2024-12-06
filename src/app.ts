@@ -1,6 +1,6 @@
 import makeWASocket, { DisconnectReason } from '@adiwajshing/baileys';
 import { Boom } from '@hapi/boom';
-import { TranslationService } from './services/translation';
+import { TranslationService } from './services/translation/translation';
 import * as dotenv from 'dotenv';
 
 dotenv.config();

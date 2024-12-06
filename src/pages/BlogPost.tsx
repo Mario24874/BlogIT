@@ -1,9 +1,10 @@
 import { useParams } from 'react-router-dom';
 import { posts } from '../data/posts/index';
 import { LazyImage } from '../components/LazyImage';
+import Comments from '../components/Comments'; 
 
 const BlogPost = () => {
-  const { id } = useParams();
+  const { id } = useParams<{ id: string }>();
   const post = posts.find(p => p.id === id);
 
   if (!post) {
@@ -47,6 +48,7 @@ const BlogPost = () => {
         className="text-gray-600"
         dangerouslySetInnerHTML={{ __html: contentWithAnchors }}
       />
+      <Comments postId={post.id} />
     </div>
   );
 };

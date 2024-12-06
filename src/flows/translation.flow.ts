@@ -1,5 +1,5 @@
 import { addKeyword } from '@bot-whatsapp/bot';
-import { TranslationService } from '../services/translation.service';
+import { TranslationService } from '../services/translation/translation.service';
 import { config } from '../config';
 
 const translationService = new TranslationService(config.huggingFaceToken);

@@ -7,20 +7,44 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-config
-dist
-dist-ssr
-*.local
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+
+# Local configuration files
 .env
+*.local
 
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Miscellaneous
+*.lock
+*.tmp
+*.bak
+*.orig
+*.log
+*.cache
+*.DS_Store
+Thumbs.db
+
+# Environment-specific files
+.env.*
+
+# Vite build output
+/public/build
+
+# Optional: Ignore all dotfiles except for .env
+.*
+!.env

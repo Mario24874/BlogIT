@@ -1,3 +1,7 @@
+import { User as FirebaseUser } from 'firebase/auth';
+
+export type User = FirebaseUser | null;
+
 export interface Post {
     id: string;
     title: string;
@@ -8,4 +12,13 @@ export interface Post {
     keywords: string[];
     description: string;
     content: string;
+  }
+
+  export interface Comment {
+    id: string;
+    text: string;
+    author: string;
+    timestamp: {
+      toDate: () => Date;
+    };
   }
