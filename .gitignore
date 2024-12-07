@@ -41,6 +41,7 @@ Thumbs.db
 
 # Environment-specific files
 .env.*
+.env.production
 
 # Vite build output
 /public/build
