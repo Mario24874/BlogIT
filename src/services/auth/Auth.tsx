@@ -35,14 +35,18 @@ const Auth = () => {
   };
 
   return (
-    <div>
+    <div className="mb-4">
       {user ? (
         <div>
-          <p>Welcome, {user.displayName}</p>
-          <button onClick={handleSignOut}>Sign Out</button>
+          <p className="text-gray-800">Welcome, {user.displayName}</p>
+          <button onClick={handleSignOut} className="mt-2 px-4 py-2 bg-red-600 text-white rounded">
+            Sign Out
+          </button>
         </div>
       ) : (
-        <button onClick={handleSignIn}>Sign In with Google</button>
+        <button onClick={handleSignIn} className="mt-2 px-4 py-2 bg-green-600 text-white rounded">
+          Sign In with Google
+        </button>
       )}
     </div>
   );

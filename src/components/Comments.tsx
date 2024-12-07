@@ -32,7 +32,7 @@ const Comments = ({ postId }: { postId: string }) => {
   };
 
   return (
-    <div>
+    <div className="mt-8">
       <h3 className="text-xl font-bold mb-4">Comments</h3>
       <Auth />
       {auth.currentUser && (
