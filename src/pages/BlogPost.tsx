@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { posts } from '../data/posts/index';
 import { LazyImage } from '../components/LazyImage';
-import Comments from '../components/Comments';
+import Comments from '../components/Comments'; 
 
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
@@ -26,7 +26,7 @@ const BlogPost = () => {
   }) : [];
 
   // Add anchors to the content
-  const contentWithAnchors = post.content.replace(/<h2 class="post-subtitle">([^<]+)<\/h2>/g, (_match, text) => {
+  const contentWithAnchors = post.content.replace(/<h2 class="post-subtitle">([^<]+)<\/h2>/g, (match, text) => {
     const anchor = text.toLowerCase().replace(/\s+/g, '-');
     return `<h2 id="${anchor}" class="post-subtitle">${text}</h2>`;
   });

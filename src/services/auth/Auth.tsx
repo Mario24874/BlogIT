@@ -4,7 +4,7 @@ import { signInWithPopup, signOut } from 'firebase/auth';
 import { User } from '../../types'; 
 
 const Auth = () => {
-  const [user, setUser] = useState<User>(null);
+  const [user, setUser] = useState<User | null>(null);
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
