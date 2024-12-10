@@ -8,12 +8,14 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import BlogPost from './pages/BlogPost';
 import Articles from './pages/Articles';
+import Footer from './components/Footer'; 
+import WriteWithUs from './pages/WriteWithUs';
 
 function App() {
   return (
     <HelmetProvider>
       <SEO 
-        title="Tech Blog - Latest in Programming & Technology"
+        title="BlogIT - The Technology Industry Blog"
         description="Discover the latest insights in technology, programming, web development, AI, cybersecurity, and more. Stay updated with cutting-edge tech trends."
         keywords={[
           "tecnología",
@@ -40,13 +42,10 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/articles" element={<Articles />} />
               <Route path="/blog/:id" element={<BlogPost />} />
+              <Route path="/write-with-us" element={<WriteWithUs />} /> 
             </Routes>
           </main>
-          <footer className="bg-gray-800 text-white py-8">
-            <div className="container mx-auto px-4 text-center">
-              <p>&copy; 2024 BlogIT. All rights reserved.</p>
-            </div>
-          </footer>
+          <Footer /> 
         </div>
       </Router>
     </HelmetProvider>

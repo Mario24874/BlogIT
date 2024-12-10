@@ -1,9 +1,13 @@
 import React, { Suspense } from 'react';
-import { posts } from '../data/posts/index';
+import { Post } from '../types';
 
 const PostCard = React.lazy(() => import('./PostCard').then(module => ({ default: module.PostCard })));
 
-function PostList() {
+interface PostListProps {
+  posts: Post[];
+}
+
+function PostList({ posts }: PostListProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((post, index) => (
