@@ -1,7 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { posts } from '../data/posts/index';
 import { LazyImage } from '../components/LazyImage';
-import Comments from '../components/Comments'; 
+import Comments from '../components/Comments';
+import TextToSpeech from '../components/TextToSpeech'; // Importa el componente TextToSpeech
 
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
@@ -31,8 +32,11 @@ const BlogPost = () => {
     return `<h2 id="${anchor}" class="post-subtitle">${text}</h2>`;
   });
 
+  // Extract plain text from the content for TextToSpeech
+  const plainTextContent = post.content.replace(/<[^>]+>/g, ''); // Remove HTML tags
+
   return (
-    <div>
+    <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold text-gray-800 mb-4">{post.title}</h1>
       <div className="relative h-48 overflow-hidden mb-4">
         <LazyImage
@@ -44,6 +48,10 @@ const BlogPost = () => {
       <ul className="mb-4">
         {subtitleLinks}
       </ul>
+
+      {/* Agregar el botón de TextToSpeech aquí */}
+      <TextToSpeech text={plainTextContent} />
+
       <div
         className="text-gray-600"
         dangerouslySetInnerHTML={{ __html: contentWithAnchors }}

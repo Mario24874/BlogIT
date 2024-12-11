@@ -14,6 +14,7 @@ const Footer = () => {
           <Link to="/contact" className="hover:text-gray-300">Contact</Link>
           <Link to="/articles" className="hover:text-gray-300">Articles</Link>
           <Link to="/write-with-us" className="hover:text-gray-300">Write with us</Link>
+          <Link to="/subscription" className="hover:text-gray-300">Subscribe</Link> 
         </div>
         <div className="flex justify-center space-x-4 mb-4">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
@@ -26,7 +27,7 @@ const Footer = () => {
             <SiThreads className="w-6 h-6" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
-            <RiTwitterXFill className="w-6 h-6" /> {/* Nuevo icono de "X" */}
+            <RiTwitterXFill className="w-6 h-6" /> 
           </a>
           <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaTwitch className="w-6 h-6" />

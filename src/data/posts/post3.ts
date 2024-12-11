@@ -9,7 +9,7 @@ const post3: Post = {
   readTime: "6 min read",
   keywords: ["cybersecurity", "security", "hacking prevention", "IT security", "tech industry"],
   description: "Learn essential cybersecurity practices and strategies to protect your applications and systems from modern threats.",
-  content: "This is the content of the third post."
+  content: "Este es el contenido del tercer post."
 };
 
 export default post3;

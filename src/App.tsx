@@ -10,6 +10,7 @@ import BlogPost from './pages/BlogPost';
 import Articles from './pages/Articles';
 import Footer from './components/Footer'; 
 import WriteWithUs from './pages/WriteWithUs';
+import Subscription from './pages/Subscription';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/articles" element={<Articles />} />
               <Route path="/blog/:id" element={<BlogPost />} />
-              <Route path="/write-with-us" element={<WriteWithUs />} /> 
+              <Route path="/write-with-us" element={<WriteWithUs />} />
+              <Route path="/subscription" element={<Subscription />} /> 
             </Routes>
           </main>
           <Footer /> 
