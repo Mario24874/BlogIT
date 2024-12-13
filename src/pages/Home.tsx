@@ -17,8 +17,8 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">Latest Articles</h1>
-      <p className="text-gray-600 mb-8">Discover the latest insights in technology and development</p>
+      <h1 className="text-3xl font-bold text-gray-800 mb-4">Últimos artículos</h1>
+      <p className="text-gray-600 mb-8">Descubra lo último en tecnología y desarrollo</p>
       <PostList posts={posts.slice(0, 3)} />
       <SubscriptionModal isOpen={showModal} onClose={() => setShowModal(false)} />
     </div>

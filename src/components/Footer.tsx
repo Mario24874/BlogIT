@@ -9,12 +9,12 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-wrap justify-center space-x-4 mb-4">
-          <Link to="/" className="hover:text-gray-300">Home</Link>
-          <Link to="/about" className="hover:text-gray-300">About</Link>
-          <Link to="/contact" className="hover:text-gray-300">Contact</Link>
-          <Link to="/articles" className="hover:text-gray-300">Articles</Link>
-          <Link to="/write-with-us" className="hover:text-gray-300">Write with us</Link>
-          <Link to="/subscription" className="hover:text-gray-300">Subscribe</Link> 
+          <Link to="/" className="hover:text-gray-300">Inicio</Link>
+          <Link to="/about" className="hover:text-gray-300">Nosotros</Link>
+          <Link to="/contact" className="hover:text-gray-300">Contacto</Link>
+          <Link to="/articles" className="hover:text-gray-300">Artículos</Link>
+          <Link to="/write-with-us" className="hover:text-gray-300">Escribe con nosotros</Link>
+          <Link to="/subscription" className="hover:text-gray-300">Suscribete</Link> 
         </div>
         <div className="flex justify-center space-x-4 mb-4">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
@@ -39,9 +39,9 @@ const Footer = () => {
             <FaYoutube className="w-6 h-6" />
           </a>
         </div>
-        <p>&copy; 2024 BlogIT. All rights reserved.</p>
+        <p>&copy; 2024 BlogIT. Todos los derechos reservados.</p>
         <div className="mt-4 flex justify-center items-center">
-          <p className="mr-2">Developed by</p>
+          <p className="mr-2">Desarrollado por</p>
           <a href="https://portfoliomariomoreno.netlify.app" target="_blank" rel="noopener noreferrer">
             <img src={LogoMarioMoreno} alt="Mario Moreno" className="w-12 h-12" />
           </a>

@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
 interface TextToSpeechProps {
-  text: string; 
+  text: string; // El texto que se leerá
 }
 
 const TextToSpeech: React.FC<TextToSpeechProps> = ({ text }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [voice, setVoice] = useState('UK English Female'); 
-  const [pitch, setPitch] = useState(1); 
-  const [rate, setRate] = useState(1); 
+  const [voice, setVoice] = useState('Spanish Female'); // Voz predeterminada en español
+  const [pitch, setPitch] = useState(1); // Tono de voz (1 es el valor predeterminado)
+  const [rate, setRate] = useState(1); // Velocidad de lectura (1 es el valor predeterminado)
 
   // Función para iniciar o detener la lectura
   const handleSpeech = () => {
     if (isSpeaking) {
-      responsiveVoice.cancel(); 
+      responsiveVoice.cancel(); // Detener la lectura
       setIsSpeaking(false);
     } else {
       responsiveVoice.speak(text, voice, { pitch, rate });
@@ -28,22 +28,22 @@ const TextToSpeech: React.FC<TextToSpeechProps> = ({ text }) => {
           onClick={handleSpeech}
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
         >
-          {isSpeaking ? 'Stop Reading' : 'Shall I read it for you?'}
+          {isSpeaking ? 'Detener Lectura' : '¿Te lo leo?'}
         </button>
         <select
           value={voice}
           onChange={(e) => setVoice(e.target.value)}
           className="p-2 border border-gray-300 rounded"
         >
-          <option value="UK English Female">UK English Female</option>
-          <option value="UK English Male">UK English Male</option>
-          <option value="Spanish Female">Spanish Female</option>
-          <option value="Spanish Male">Spanish Male</option>
+          <option value="Spanish Female">Español Femenino</option>
+          <option value="Spanish Male">Español Masculino</option>
+          <option value="Spanish Latin American Female">Español Latino Femenino</option>
+          <option value="Spanish Latin American Male">Español Latino Masculino</option>
         </select>
       </div>
       <div className="flex items-center space-x-4 mb-4">
         <label className="flex items-center space-x-2">
-          <span>Speed:</span>
+          <span>Velocidad:</span>
           <input
             type="range"
             min="0.5"
@@ -56,7 +56,7 @@ const TextToSpeech: React.FC<TextToSpeechProps> = ({ text }) => {
           <span>{rate.toFixed(1)}x</span>
         </label>
         <label className="flex items-center space-x-2">
-          <span>Pitch:</span>
+          <span>Tono:</span>
           <input
             type="range"
             min="0.5"

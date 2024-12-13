@@ -32,7 +32,7 @@ export function PostCard({ title, excerpt, image, date, readTime, id }: PostCard
           to={`/blog/${id}`}
           className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
         >
-          Read More <ArrowRight size={16} className="ml-1" />
+          Leer más <ArrowRight size={16} className="ml-1" />
         </Link>
       </div>
     </article>

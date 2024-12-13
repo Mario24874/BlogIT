@@ -12,8 +12,8 @@ export const sendPushNotification = async (token: string, title: string, body: s
 
   try {
     const response = await messaging.send(message);
-    console.log('Notification sent successfully:', response);
+    console.log('Notificación enviada correctamente:', response);
   } catch (error) {
-    console.error('Error sending notification:', error);
+    console.error('Error al enviar la notificación:', error);
   }
 };

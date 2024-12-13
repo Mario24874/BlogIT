@@ -53,16 +53,16 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ isOpen, onClose }
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white rounded-lg p-8 max-w-md w-full">
-        <h2 className="text-xl font-bold mb-4">¡Subscribe to receive notifications about news and new articles.!</h2>
+        <h2 className="text-xl font-bold mb-4">¡Suscríbase para recibir notificaciones sobre noticias y nuevos artículos!</h2>
         <p className="text-gray-600 mb-6">
-        Would you like to receive notifications about news and new articles?
+        ¿Desea recibir notificaciones sobre noticias y nuevos artículos?
         </p>
         <div className="flex justify-end space-x-4">
           <button
             onClick={onClose}
             className="px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400"
           >
-            Not now
+            Ahora no
           </button>
           <button
             onClick={() => {
@@ -71,7 +71,7 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ isOpen, onClose }
             }}
             className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
           >
-            Accept
+            Acepto
           </button>
         </div>
       </div>

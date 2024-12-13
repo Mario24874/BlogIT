@@ -48,8 +48,8 @@ const Articles: React.FC = () => {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">Articles</h1>
-      <p className="text-gray-600 mb-8">Discover the latest insights in technology and development</p>
+      <h1 className="text-3xl font-bold text-gray-800 mb-4">Artículos</h1>
+      <p className="text-gray-600 mb-8">Descubra las últimas novedades en tecnología y desarrollo</p>
       <input
         type="text"
         placeholder="Buscar por palabras clave"
@@ -63,7 +63,7 @@ const Articles: React.FC = () => {
           onChange={handleDateFilter}
           className="p-2 border border-gray-300 rounded"
         >
-          <option value="">Filter by date</option>
+          <option value="">Filtrar por fecha</option>
           {posts.map(post => (
             <option key={post.id} value={post.date}>{post.date}</option>
           ))}
@@ -73,7 +73,7 @@ const Articles: React.FC = () => {
           onChange={handleReadTimeFilter}
           className="p-2 border border-gray-300 rounded"
         >
-          <option value="">Filter by reading time</option>
+          <option value="">Filtrar por tiempo de lectura</option>
           {posts.map(post => (
             <option key={post.id} value={post.readTime}>{post.readTime}</option>
           ))}

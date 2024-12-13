@@ -30,14 +30,14 @@ const Subscription: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">Subscription</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-4">Suscríbase</h1>
       <img src={SubscriptionImage} alt="Suscripción" className="mx-auto mb-4 w-68 rounded" />
       <p className="text-gray-800 mb-4">
-      Subscribe to receive notifications about news and new articles.
+      Suscríbase para recibir notificaciones sobre noticias y nuevos artículos.
       </p>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto p-6 border-4 border-blue-900 rounded-lg shadow-lg">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-gray-700">Name</label>
+          <label htmlFor="name" className="block text-gray-700">Nombre</label>
           <input
             type="text"
             id="name"
@@ -49,7 +49,7 @@ const Subscription: React.FC = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block text-black-700">Email</label>
+          <label htmlFor="email" className="block text-black-700">Correo Electrónico</label>
           <input
             type="email"
             id="email"
@@ -64,7 +64,7 @@ const Subscription: React.FC = () => {
           type="submit"
           className="w-full px-4 py-2 bg-blue-800 text-white rounded hover:bg-blue-900"
         >
-          Subscribe
+          Suscríbase
         </button>
       </form>
     </div>

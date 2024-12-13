@@ -43,12 +43,12 @@ const Contact = () => {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-4">Contacte con nosotros</h1>
       <img src={ContactImage} alt="Contact" className="mx-auto mb-4 w-68 rounded" />
-      <p className="text-gray-800 mb-4">Feel free to reach out to us...</p>
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto p-6 border-4 border-blue-900 rounded-lg shadow-lg">
+      <p className="text-gray-800 mb-4">No dude en ponerse en contacto con nosotros...</p>
+      <form onSubmit={handleSubmit} className="max-w-68 mx-auto p-6 border-4 border-blue-900 rounded-lg shadow-lg">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-gray-700">Name</label>
+          <label htmlFor="name" className="block text-gray-700">Nombre</label>
           <input
             type="text"
             id="name"
@@ -60,7 +60,7 @@ const Contact = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block text-black-700">Email</label>
+          <label htmlFor="email" className="block text-black-700">Correo Electrónico</label>
           <input
             type="email"
             id="email"
@@ -72,7 +72,7 @@ const Contact = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="message" className="block text-black-700">Message</label>
+          <label htmlFor="message" className="block text-black-700">Mensaje</label>
           <textarea
             id="message"
             name="message"
@@ -85,9 +85,9 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="w-full px-4 py-2 bg-blue-800 text-white rounded hover:bg-blue-900"
+          className="w-52 px-4 py-2 bg-blue-800 text-white rounded hover:bg-blue-900 flex items-center justify-center"
         >
-          Send Message
+          Enviar mensaje
         </button>
       </form>
     </div>
