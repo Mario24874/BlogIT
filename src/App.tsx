@@ -16,19 +16,25 @@ function App() {
   return (
     <HelmetProvider>
       <SEO 
-        title="BlogIT - The Technology Industry Blog"
-        description="Discover the latest insights in technology, programming, web development, AI, cybersecurity, and more. Stay updated with cutting-edge tech trends."
+        title="BlogIT - El Blog de la Industria Tecnológica"
+        description="Descubra lo último en tecnología, programación, desarrollo web, inteligencia artificial, ciberseguridad y mucho más. Mantente al día de las últimas tendencias tecnológicas."
         keywords={[
           "tecnología",
           "programación",
           "informática",
+          "ciberseguridad",
+          "cybersecurity",
+          "App",
           "desarrollo web",
           "aplicaciones",
+          "Innovaciones",
           "automatizaciones",
           "domótica",
           "tech industry",
           "software development",
-          "artificial intelligence"
+          "AI",
+          "artificial intelligence",
+          "IA"
         ]}
       />
       <Router>
