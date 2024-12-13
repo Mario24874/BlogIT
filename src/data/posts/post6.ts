@@ -4,7 +4,7 @@ const post6: Post = {
   id: "6",
   title: "El futuro de la inteligencia artificial: Avances recientes e impacto en nuestro futuro",
   excerpt: "Exploración de los últimos avances en IA y aprendizaje automático, y cómo están configurando nuestro futuro.",
-  image: "/src/data/posts/images/AI-future.jpg", 
+  image: "/images/AI-future.jpg", 
   date: "15 de marzo de 2024",
   readTime: "5 minutos de lectura",
   keywords: ["inteligencia artificial", "aprendizaje automático", "IA", "tecnología", "automatización", "ética"],
@@ -13,7 +13,7 @@ const post6: Post = {
     <p>La inteligencia artificial (IA) ha experimentado un crecimiento explosivo en los últimos años, transformando diversos sectores de la sociedad y abriendo nuevas perspectivas para el futuro. En este artículo, exploraremos los últimos avances en IA y aprendizaje automático, y cómo estos están moldeando el rumbo de nuestra civilización.</p>
 
     <h2 class="post-subtitle">Orígenes y evolución de la IA</h2>
-    <img src="/src/data/posts/images/AlanTuring-AI.jpg" alt="Orígenes y evolución de la IA" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/AlanTuring-AI.jpg" alt="Orígenes y evolución de la IA" class="post-image w-68 h-auto object-contain" />
     <p>La historia de la IA tiene sus raíces en la década de 1950, cuando científicos como Alan Turing comenzaron a soñar con máquinas capaces de simular la inteligencia humana. Desde entonces, hemos visto numerosos hitos importantes:</p>
 
     <ul>
@@ -26,7 +26,7 @@ const post6: Post = {
     <p>Estos avances no solo demuestran el progreso tecnológico, sino que también revelan el impacto profundo que la IA está teniendo en nuestra sociedad.</p>
 
     <h2 class="post-subtitle">Avances recientes en IA y aprendizaje automático</h2>
-    <img src="/src/data/posts/images/AvancesIA.jpg" alt="Avances recientes en IA" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/AvancesIA.jpg" alt="Avances recientes en IA" class="post-image w-68 h-auto object-contain" />
     <p>La última década ha visto una explosión de avances en el campo de la IA:</p>
 
     <ul>
@@ -38,7 +38,7 @@ const post6: Post = {
     </ul>
 
     <h2 class="post-subtitle">Impacto de la IA en la sociedad</h2>
-    <img src="/src/data/posts/images/IASociedad.jpg" alt="Impacto de la IA en la sociedad" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/IASociedad.jpg" alt="Impacto de la IA en la sociedad" class="post-image w-68 h-auto object-contain" />
     <p>La IA está transformando casi todos los aspectos de nuestra vida:</p>
 
     <ul>
@@ -50,7 +50,7 @@ const post6: Post = {
     </ul>
 
     <h2 class="post-subtitle">Desafíos y consideraciones éticas</h2>
-    <img src="/src/data/posts/images/IAPrivacidad.jpg" alt="Desafíos éticos de la IA" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/IAPrivacidad.jpg" alt="Desafíos éticos de la IA" class="post-image w-68 h-auto object-contain" />
     <p>A medida que la IA se integra más profundamente en nuestra sociedad, surgen importantes cuestiones éticas:</p>
 
     <ul>
@@ -61,7 +61,7 @@ const post6: Post = {
     </ul>
 
     <h2 class="post-subtitle">Preparándonos para el futuro de la IA</h2>
-    <img src="/src/data/posts/images/IAEducacion.jpg" alt="Preparándonos para el futuro de la IA" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/IAEducacion.jpg" alt="Preparándonos para el futuro de la IA" class="post-image w-68 h-auto object-contain" />
     <p>Para aprovechar al máximo los beneficios de la IA mientras abordamos estos desafíos, es crucial:</p>
 
     <ul>

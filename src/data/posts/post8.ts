@@ -4,7 +4,7 @@ const post8: Post = {
   id: "8",
   title: "Avances Tecnológicos e Innovaciones en Salud para 2025",
   excerpt: "Descubre las innovaciones más prometedoras que transformarán la industria de la salud en 2025.",
-  image: "/src/data/posts/images/InnovacionesTechSalud.jpg",
+  image: "/images/InnovacionesTechSalud.jpg", 
   date: "20 de diciembre de 2024",
   readTime: "8 minutos de lectura",
   keywords: ["salud", "tecnología médica", "inteligencia artificial", "terapias digitales", "diagnóstico avanzado"],
@@ -13,7 +13,7 @@ const post8: Post = {
     <p>El sector de la salud está en el umbral de una revolución tecnológica que cambiará radicalmente la forma en que entendemos y tratamos la medicina. Para 2025, podemos esperar ver avances significativos que transformarán la industria de la salud y mejorarán la calidad de vida de las personas. En este artículo exploraremos algunas de las innovaciones más prometedoras que se esperan ver la luz en los próximos años.</p>
 
     <h2 class="post-subtitle">1. Inteligencia Artificial en Medicina</h2>
-    <img src="/src/data/posts/images/IAMedical.jpg" alt="Inteligencia Artificial en Medicina" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/IAMedical.jpg" alt="Inteligencia Artificial en Medicina" class="post-image w-68 h-auto object-contain" />
     <p>La inteligencia artificial (IA) será uno de los pilares fundamentales de la innovación médica del futuro. Algunas de las aplicaciones más destacadas incluyen:</p>
     <ul>
       <li>Asistentes virtuales avanzados como el algoritmo Med-Palm de Google, que ofrecerán respuestas precisas a cuestiones médicas.</li>
@@ -22,7 +22,7 @@ const post8: Post = {
     </ul>
 
     <h2 class="post-subtitle">2. Gemelos Digitales en la Atención Médica</h2>
-    <img src="/src/data/posts/images/DigitalTwins.jpg" alt="Gemelos Digitales" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/DigitalTwins.jpg" alt="Gemelos Digitales" class="post-image w-68 h-auto object-contain" />
     <p>Los gemelos digitales o "digital twins" serán una herramienta fundamental para personalizar el tratamiento médico. Estos sistemas te permitirán:</p>
     <ul>
       <li>Simular y predecir el comportamiento de órganos y cuerpos para desarrollar planes de tratamiento eficaces.</li>
@@ -31,7 +31,7 @@ const post8: Post = {
     </ul>
 
     <h2 class="post-subtitle">3. Terapias Digitales Basadas en Evidencia</h2>
-    <img src="/src/data/posts/images/TerapiaDigital.jpg" alt="Terapias Digitales" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/TerapiaDigital.jpg" alt="Terapias Digitales" class="post-image w-68 h-auto object-contain" />
     <p>Las terapias digitales (DTx) seguirán creciendo exponencialmente. Algunos ejemplos incluirán:</p>
     <ul>
       <li>Aplicaciones móviles para controlar enfermedades crónicas como la diabetes y la hipertensión.</li>
@@ -40,7 +40,7 @@ const post8: Post = {
     </ul>
 
     <h2 class="post-subtitle">4. Análisis de Sangre Más Precisos e Indoloros</h2>
-    <img src="/src/data/posts/images/Analisis.jpg" alt="Análisis de Sangre" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/Analisis.jpg" alt="Análisis de Sangre" class="post-image w-68 h-auto object-contain" />
     <p>La tecnología para realizar análisis de sangre se está volviendo cada vez más precisa y menos invasiva:</p>
     <ul>
       <li>Dispositivos robóticos que facilitan la toma de muestras de sangre con menor dolor y riesgo de errores.</li>
@@ -49,7 +49,7 @@ const post8: Post = {
     </ul>
 
     <h2 class="post-subtitle">5. Avances en Diagnóstico y Tratamiento de Enfermedades</h2>
-    <img src="/src/data/posts/images/DiagnosticoMedico.jpg" alt="Avances Médicos" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/DiagnosticoMedico.jpg" alt="Avances Médicos" class="post-image w-68 h-auto object-contain" />
     <p>Se espera ver avances significativos en varios campos médicos:</p>
     <ul>
       <li>Imágenes de ultrasonidos en 3D para un diagnóstico preciso del cáncer de mama sin necesidad de rayos X.</li>
@@ -58,7 +58,7 @@ const post8: Post = {
     </ul>
 
     <h2 class="post-subtitle">6. Innovaciones en Fármacos y Terapias</h2>
-    <img src="/src/data/posts/images/InnovacionFarmacos.jpg" alt="Innovaciones Farmacéuticas" class="post-image w-68 h-auto object-contain" />
+    <img src="/images/InnovacionFarmacos.jpg" alt="Innovaciones Farmacéuticas" class="post-image w-68 h-auto object-contain" />
     <p>La investigación farmacéutica también experimentará cambios importantes:</p>
     <ul>
       <li>Plataformas digitales como POLYGON que aceleran el desarrollo de nuevos fármacos contra enfermedades específicas.</li>
