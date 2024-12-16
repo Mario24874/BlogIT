@@ -12,6 +12,10 @@ export interface Post {
     keywords: string[];
     description: string;
     content: string;
+    author: {
+      name: string;
+      avatar: string;
+    };
   }
 
   export interface Comment {

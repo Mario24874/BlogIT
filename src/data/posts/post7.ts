@@ -51,7 +51,11 @@ const post7: Post = {
     <p>La domótica de 2025 promete ser una experiencia más integrada, personalizada y sostenible. Con tecnologías como la realidad aumentada y virtual, el aprendizaje por refuerzo, seguridad avanzada y control remoto eficiente, los hogares inteligentes del futuro serán más cómodos, eficientes y adaptados a las necesidades individuales de cada familia.</p>
     <p>Es importante recordar que esta evolución no solo traerá beneficios, sino también nuevos desafíos en términos de privacidad y seguridad. Es crucial estar atento a estas tendencias y considerar cómo pueden beneficiarte o afectarte directamente en tu vida diaria.</p>
     <p>En un futuro cercano, la domótica podría cambiar radicalmente nuestra forma de vivir e interactuar con el entorno de nuestro hogar. ¿Estás preparado para experimentar el futuro del hogar inteligente?</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post7;

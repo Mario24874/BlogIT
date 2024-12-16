@@ -69,7 +69,11 @@ const post8: Post = {
     <p>Los avances tecnológicos previstos para 2025 representan una oportunidad sin precedentes para transformar la industria de la salud. Desde la inteligencia artificial hasta las terapias digitales y los análisis de sangre más precisos, estas innovaciones prometen mejorar significativamente la calidad de vida de las personas y hacer la atención médica más eficiente y personalizada.</p>
     <p>Es importante recordar que estos avances no solo traerán beneficios, sino también nuevos desafíos en términos de privacidad y seguridad. Es crucial estar atento a estas tendencias y considerar cómo pueden beneficiarte o afectarte directamente en tu vida diaria.</p>
     <p>En un futuro cercano, la tecnología médica podría cambiar radicalmente nuestra forma de entender y tratar las enfermedades. ¿Estás preparado para experimentar el futuro de la salud?</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post8;

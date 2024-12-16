@@ -54,7 +54,11 @@ const post4: Post = {
     <p>La computación en la nube está revolucionando la forma en que se crean e implementan aplicaciones. Ofrece flexibilidad, escalabilidad y costos reducidos, permitiendo a las empresas y desarrolladores enfocarse en lo que realmente importa: crear valor para sus usuarios.</p>
 
     <p>En un futuro cercano, esperamos ver aún más avances en esta área, posiblemente con la integración de tecnologías emergentes como el Internet de las Cosas (IoT) y la inteligencia artificial. La computación en la nube seguirá siendo un pilar fundamental en la transformación digital de nuestras empresas y sociedades.</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post4;

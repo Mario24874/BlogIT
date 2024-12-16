@@ -45,7 +45,11 @@ const post3: Post = {
     <h2 class="post-subtitle">Conclusión</h2>
     <p>En conclusión, implementando estas seis mejores prácticas de ciberseguridad, puedes fortalecer significativamente la defensa de tu organización contra las amenazas cibernéticas. Recuerda que la ciberseguridad es un proceso continuo y que mantenerse actualizado sobre las últimas tendencias y amenazas es fundamental.</p>
     <p>Por último, nunca olvides que la ciberseguridad es responsabilidad de todo el equipo. Involucra a todos los niveles de tu organización en la protección de tus activos digitales y mantén una cultura de concienciación sobre seguridad que permea cada aspecto de tu negocio.</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post3;

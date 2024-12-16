@@ -56,6 +56,15 @@ const BlogPost = () => {
         className="text-gray-600"
         dangerouslySetInnerHTML={{ __html: contentWithAnchors }}
       />
+
+      {/* Información del autor */}
+      <div className="post-author mt-8 border-t pt-8">
+        <img src={post.author.avatar} alt={post.author.name} className="author-avatar w-16 h-16 rounded-full mr-4" />
+        <div className="author-info">
+          <h3 className="text-lg font-bold text-gray-800">Escrito por: {post.author.name}</h3>
+        </div>
+      </div>
+
       <Comments postId={post.id} />
     </div>
   );

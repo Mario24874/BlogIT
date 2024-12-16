@@ -43,7 +43,11 @@ const post1: Post = {
     <p>Finalmente, la programación requiere paciencia y disciplina. No basta con aprender los fundamentos; necesitas practicar continuamente y resolver problemas complejos para adquirir habilidad. Las primeras semanas pueden ser especialmente desafiantes; es fácil sentirse desmotivado cuando el progreso parece lento.</p>
 
     <p>En resumen, empezar en la programación requiere más que solo un PC e internet. Considera las capacidades de tu equipo, la velocidad de tu conexión, los recursos específicos necesarios y tu compromiso con la capacitación continua. Con una preparación adecuada y una actitud perseverante, puedes superar los desafíos presentados por este apasionante campo.</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post1;

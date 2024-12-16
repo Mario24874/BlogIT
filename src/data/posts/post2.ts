@@ -53,7 +53,11 @@ const post2: Post = {
 
     <h2 class="post-subtitle">Conclusión</h2>
     <p>El desarrollo web está en constante evolución, y las tendencias para 2025 prometen traer avances significativos en rendimiento, personalización y experiencia del usuario. Desde la adopción de frameworks híbridos hasta la integración de IA y AR/VR, los desarrolladores tendrán muchas oportunidades para innovar. Mantenerse actualizado con estas tendencias será clave para destacar en la industria.</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post2;

@@ -88,7 +88,11 @@ const post5: Post = {
 
     <h2 class="post-subtitle">Conclusión</h2>
     <p>React Native, junto con Expo Go, ofrece una poderosa herramienta para desarrollar aplicaciones móviles modernas. Con su base en JavaScript y capacidad para crear interfaces nativas, facilita el desarrollo de aplicaciones multiplataforma de alta calidad. Ya sea que seas un desarrollador experimentado o estés comenzando, React Native y Expo Go son una opción valiosa para llevar tus ideas móviles al siguiente nivel.</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post5;

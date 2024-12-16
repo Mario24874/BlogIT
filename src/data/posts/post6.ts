@@ -76,7 +76,11 @@ const post6: Post = {
     <p>La inteligencia artificial está en el umbral de una era de transformación sin precedentes. Sus avances recientes y su impacto en diversos sectores de nuestra sociedad nos muestran un futuro lleno de posibilidades, pero también de desafíos. Es crucial que entendamos estos cambios y nos preparemos para aprovechar los beneficios de la IA mientras abordamos las preocupaciones éticas y sociales que surgen.</p>
 
     <p>El futuro de la IA no está predicho, sino que lo estamos escribiendo juntos. ¿Cómo queremos que sea? La elección es nuestra, y depende de cómo decidamos enfrentar estos retos y oportunidades en el camino hacia un futuro más inteligente y equitativo.</p>
-  `
+  `,
+  author: {
+    name: "Mario Moreno",
+    avatar: "/images/Mario_Moreno.jpeg" 
+  }
 };
 
 export default post6;

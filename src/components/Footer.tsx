@@ -20,22 +20,22 @@ const Footer = () => {
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaFacebook className="w-6 h-6" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://instagram.com/blog.itech" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaInstagram className="w-6 h-6" />
           </a>
-          <a href="https://threads.net" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://threads.net/@blog.itech" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <SiThreads className="w-6 h-6" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://x.com/Blogit_tech" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <RiTwitterXFill className="w-6 h-6" /> 
           </a>
           <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaTwitch className="w-6 h-6" />
           </a>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://discord.gg/g6Am3u8k" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaDiscord className="w-6 h-6" />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://youtube.com/@Blogit-e3d" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaYoutube className="w-6 h-6" />
           </a>
         </div>
