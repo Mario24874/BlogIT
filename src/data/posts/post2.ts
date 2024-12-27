@@ -5,7 +5,7 @@ const post2: Post = {
   title: "Tendencias en desarrollo web para 2025",
   excerpt: "Descubre las tendencias más importantes en desarrollo web que dominarán la industria en 2025.",
   image: "/images/Development.jpg", 
-  date: "9 de diciembre de 2024",
+  date: "2024-12-09",
   readTime: "8 minutos de lectura",
   keywords: ["desarrollo web", "programación", "frontend", "backend", "full-stack", "desarrollo de software"],
   description: "Mantente a la vanguardia con las últimas tendencias y tecnologías en desarrollo web que están moldeando el futuro del desarrollo de software.",

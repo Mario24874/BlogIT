@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaTwitch, FaDiscord, FaYoutube } from 'react-icons/fa';
-import { SiThreads } from 'react-icons/si';
+import { FaFacebook, FaInstagram, FaDiscord, FaYoutube } from 'react-icons/fa';
 import { RiTwitterXFill } from 'react-icons/ri'; 
 import LogoMarioMoreno from '../assets/Logo_Mario_Moreno-SF.png'; 
 
@@ -17,21 +16,15 @@ const Footer = () => {
           <Link to="/subscription" className="hover:text-gray-300">Suscribete</Link> 
         </div>
         <div className="flex justify-center space-x-4 mb-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://www.facebook.com/blogitechpost" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaFacebook className="w-6 h-6" />
           </a>
-          <a href="https://instagram.com/blog.itech" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://www.instagram.com/servitech_lat" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaInstagram className="w-6 h-6" />
-          </a>
-          <a href="https://threads.net/@blog.itech" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
-            <SiThreads className="w-6 h-6" />
-          </a>
+          </a>          
           <a href="https://x.com/Blogit_tech" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <RiTwitterXFill className="w-6 h-6" /> 
-          </a>
-          <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
-            <FaTwitch className="w-6 h-6" />
-          </a>
+          </a>          
           <a href="https://discord.gg/g6Am3u8k" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaDiscord className="w-6 h-6" />
           </a>

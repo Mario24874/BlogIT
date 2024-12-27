@@ -5,7 +5,7 @@ const post5: Post = {
   title: "Guía de desarrollo de aplicaciones móviles: Una guía completa para crear aplicaciones móviles modernas con React Native",
   excerpt: "Explora los conceptos clave de React Native y cómo puedes usarlos para crear aplicaciones móviles modernas con Expo Go.",
   image: "/images/ReactNativeGuia.jpg", 
-  date: "5 de marzo de 2024",
+  date: "2024-12-14",
   readTime: "7 minutos de lectura",
   keywords: ["desarrollo móvil", "React Native", "Expo Go", "iOS", "Android", "programación", "aplicaciones móviles"],
   description: "Aprende a desarrollar aplicaciones móviles modernas utilizando React Native y Expo Go, una herramienta poderosa para crear aplicaciones nativas multiplataforma.",

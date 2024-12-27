@@ -5,7 +5,7 @@ const post8: Post = {
   title: "Avances Tecnológicos e Innovaciones en Salud para 2025",
   excerpt: "Descubre las innovaciones más prometedoras que transformarán la industria de la salud en 2025.",
   image: "/images/InnovacionesTechSalud.jpg", 
-  date: "20 de diciembre de 2024",
+  date: "2024-12-20",
   readTime: "8 minutos de lectura",
   keywords: ["salud", "tecnología médica", "inteligencia artificial", "terapias digitales", "diagnóstico avanzado"],
   description: "Explora los avances tecnológicos y las innovaciones que transformarán la industria de la salud en 2025 y más allá.",

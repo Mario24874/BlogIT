@@ -5,7 +5,7 @@ const post1: Post = {
   title: "Lo que no te dicen cuando aprendes a programar",
   excerpt: "¿Has decidido empezar a aprender a programar? ¡Felicidades! Es un gran paso que pondrá a prueba tus habilidades, conocimientos y, sobre todo, tu paciencia.",
   image: "/images/HelloWorld.png", 
-  date: "5 de diciembre de 2024",
+  date: "2024-12-05",
   readTime: "5 minutos de lectura",
   keywords: ["programación", "aprendizaje", "desarrollo", "tecnología", "educación"],
   description: "Descubre lo que no te cuentan cuando empiezas a aprender a programar y cómo prepararte para los desafíos que enfrentarás en este apasionante campo.",

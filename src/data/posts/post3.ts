@@ -5,7 +5,7 @@ const post3: Post = {
   title: "Las mejores prácticas en ciberseguridad: Protegiendo tus activos digitales",
   excerpt: "Prácticas esenciales de ciberseguridad que todo desarrollador debe conocer para proteger sus aplicaciones.",
   image: "/images/Ciberseguridad.jpg", 
-  date: "10 de diciembre de 2024",
+  date: "2024-12-10",
   readTime: "6 minutos de lectura",
   keywords: ["ciberseguridad", "seguridad", "prevención de hackeos", "seguridad informática", "industria tecnológica"],
   description: "Aprende las prácticas esenciales de ciberseguridad y estrategias para proteger tus aplicaciones y sistemas de las amenazas modernas.",

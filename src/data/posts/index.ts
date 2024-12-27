@@ -6,6 +6,9 @@
   import post6 from './post6';
   import post7 from './post7';
   import post8 from './post8';
+  import post9 from './post9';
+  import post10 from './post10';
+  import post11 from './post11';
   
   export const posts = [
     post1,
@@ -15,5 +18,8 @@
     post5,
     post6,
     post7,
-    post8
+    post8,
+    post9,
+    post10,
+    post11
   ];

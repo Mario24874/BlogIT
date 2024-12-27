@@ -15,11 +15,17 @@ const Home: React.FC = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // Ordenar los posts por fecha (del más reciente al más antiguo)
+  const sortedPosts = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  // Seleccionar los últimos 3 posts
+  const latestPosts = sortedPosts.slice(0, 3);
+
   return (
     <div>
       <h1 className="text-3xl font-bold text-gray-800 mb-4">Últimos artículos</h1>
       <p className="text-gray-600 mb-8">Descubra lo último en tecnología y desarrollo</p>
-      <PostList posts={posts.slice(0, 3)} />
+      <PostList posts={latestPosts} />
       <SubscriptionModal isOpen={showModal} onClose={() => setShowModal(false)} />
     </div>
   );

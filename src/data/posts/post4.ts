@@ -5,7 +5,7 @@ const post4: Post = {
   title: "El auge de la computación en nube",
   excerpt: "Cómo la computación en nube está revolucionando la forma de crear e implantar aplicaciones.",
   image: "/images/Cloud-Computing.jpg", 
-  date: "12 de diciembre de 2024",
+  date: "2024-12-12",
   readTime: "7 minutos de lectura",
   keywords: ["computación en la nube", "desarrollo de aplicaciones", "tecnología", "innovación", "escalabilidad"],
   description: "Descubre cómo la computación en la nube está cambiando la forma en que se crean e implementan aplicaciones, ofreciendo flexibilidad, escalabilidad y ahorro de costos.",

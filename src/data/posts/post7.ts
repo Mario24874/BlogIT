@@ -5,7 +5,7 @@ const post7: Post = {
   title: "Domótica 2025: Innovaciones y Tendencias",
   excerpt: "Descubre las innovaciones y tendencias que definirán la domótica del futuro próximo.",
   image: "/images/Domotica2025.jpg", 
-  date: "15 de diciembre de 2024",
+  date: "2024-12-16",
   readTime: "8 minutos de lectura",
   keywords: ["domótica", "hogar inteligente", "realidad aumentada", "energía sostenible", "seguridad inteligente"],
   description: "Explora las principales innovaciones y tendencias que transformarán la domótica en 2025 y más allá.",

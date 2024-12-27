@@ -5,7 +5,7 @@ const post6: Post = {
   title: "El futuro de la inteligencia artificial: Avances recientes e impacto en nuestro futuro",
   excerpt: "Exploración de los últimos avances en IA y aprendizaje automático, y cómo están configurando nuestro futuro.",
   image: "/images/AI-future.jpg", 
-  date: "15 de marzo de 2024",
+  date: "2024-12-15",
   readTime: "5 minutos de lectura",
   keywords: ["inteligencia artificial", "aprendizaje automático", "IA", "tecnología", "automatización", "ética"],
   description: "Descubre los últimos avances en inteligencia artificial y aprendizaje automático, y cómo están transformando la sociedad y moldeando nuestro futuro.",
